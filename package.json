@@ -8,15 +8,12 @@
     "crypto": "~0.0.3"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git@heroku.com:dots-and-boxes.git"
   },
 "scripts": {
-  "start": "node index.js"
+  "start": "node app.js"
 }
   "author": "Madusha Kumarasiri",
   "license": "ISC"
