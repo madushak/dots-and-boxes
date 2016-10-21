@@ -14,7 +14,7 @@
   },
 "scripts": {
   "start": "node app.js"
-}
+},
   "author": "Madusha Kumarasiri",
   "license": "ISC"
 }
