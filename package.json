@@ -15,6 +15,9 @@
     "type": "git",
     "url": "git@heroku.com:dots-and-boxes.git"
   },
+"scripts": {
+  "start": "node index.js"
+}
   "author": "Madusha Kumarasiri",
   "license": "ISC"
 }
