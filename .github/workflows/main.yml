@@ -9,7 +9,7 @@ on:
 
 env:
   GITHUB_RUN: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-  BRANCH_NAME: ${{ github.head_ref || 'fff' }}
+  BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
 
 jobs:
   build:
@@ -21,6 +21,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        ref: fff
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
